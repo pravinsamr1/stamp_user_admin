@@ -1,0 +1,213 @@
+.content-section {
+     display: none;
+     margin-top: 20px;
+     padding: 20px;
+     border-radius: 10px;
+     transition: all ease-in-out 0.8s;
+}
+
+.content-section.active {
+     display: block;
+}
+h5{
+     cursor: pointer;
+}
+
+.contentt{
+     color: #000;
+}
+
+.btn-red:hover{
+     background: red !important;
+     border: none;
+}
+
+.fff td{
+     border: 1px solid #f6f6f6;
+}
+
+.account-pagess {
+  background: url("assets/images/login-back.png");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  /* height: 100vh;                 
+  width: 100%; */
+  display: flex;                 
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-btnn{
+     border: 1px solid;
+}
+
+.delete-btnn:hover{
+     background: red !important;
+     border: none;
+     color: #fff;
+}
+
+.canncled{
+     background:  #FF0000 !important;
+     padding: 5px 10px;
+     color: #fff;
+     border-radius: 5px;
+}
+
+.mint{
+     background: #00A33D !important;
+     padding: 5px 10px;
+     color: #fff;
+     border-radius: 5px;
+}
+
+.purcha{
+     background: #FCFF52 !important;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+
+.sales{
+     background: #D9FFC7 !important;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+
+.backk-btnn{
+     background: #fff !important;
+     padding: 10px 10px 0px;
+     border-radius: 10px;
+}
+
+.backk-btnn a{
+     color:#000 !important;
+     padding-top: 5px !important;
+}
+
+.country-filed{
+     background: #ececec !important;
+     cursor: not-allowed;
+}
+
+#yearSelect + .select2 .select2-selection--single {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-radius: 7px;
+}
+
+/* Text alignment */
+#yearSelect + .select2 .select2-selection__rendered {
+    line-height: 40px;
+}
+
+/* Dropdown arrow alignment */
+#yearSelect + .select2 .select2-selection__arrow {
+    height: 40px;
+    right: 15px;
+    font-size: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    font-size: 50px !important;
+}
+
+/* Dropdown container */
+.select2-container--default .select2-dropdown {
+    background-color: #fafcff;   /* dark background */
+}
+
+#yearSelect + .select2 .select2-results__option {
+    padding: 8px 12px;
+}
+
+
+#themeSelect + .select2 .select2-selection--single {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-radius: 7px;
+}
+
+/* Text alignment */
+#themeSelect + .select2 .select2-selection__rendered {
+    line-height: 40px;
+}
+
+/* Dropdown arrow alignment */
+#themeSelect + .select2 .select2-selection__arrow {
+    height: 40px;
+    right: 15px;
+    font-size: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    font-size: 50px !important;
+}
+
+/* Dropdown container */
+.select2-container--default .select2-dropdown {
+    background-color: #fafcff;   /* dark background */
+}
+
+#themeSelect + .select2 .select2-results__option {
+    padding: 8px 12px;
+}
+
+
+
+
+#countrySelect + .select2 .select2-selection--single {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-radius: 7px;
+}
+
+/* Text alignment */
+#countrySelect + .select2 .select2-selection__rendered {
+    line-height: 40px;
+}
+
+/* Dropdown arrow alignment */
+#countrySelect + .select2 .select2-selection__arrow {
+    height: 40px;
+    right: 15px;
+    font-size: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    font-size: 50px !important;
+}
+
+/* Dropdown container */
+.select2-container--default .select2-dropdown {
+    background-color: #fafcff;   /* dark background */
+}
+
+#countrySelect + .select2 .select2-results__option {
+    padding: 8px 12px;
+}
+
+.person-status {
+    border: 1px solid #949494;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+.when-active{
+    background: #00A33D;
+    color: #fff;
+    border: none;
+}
