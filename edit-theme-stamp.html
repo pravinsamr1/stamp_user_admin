@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8" />
     <title>Data Tables | Agroxa - Responsive Bootstrap 5 Admin Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -193,6 +191,13 @@
                 </div>
                 <!-- Sidebar -->
             </div>
+        </div>                  <span>Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
         </div>
         <!-- Left Sidebar End -->
 
@@ -202,8 +207,8 @@
         <!-- Start right Content here -->
         <!-- ============================================================== -->
         <div class="main-content">
-
-            <div class="page-content">
+ 
+            <div class="page-content" style="margin-top: -22px;">
                 <div class="container-fluid">
 
                     <!-- start page title -->
@@ -211,7 +216,7 @@
                         <div class="col-12">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
                                 <div class="page-title">
-                                    <h2 class="mb-0 font-size-30">Edit Country Stamps</h2>
+                                    <h2 class="mb-0 font-size-30">Edit Theme Stamps</h2>
                                 </div>
                             </div>
                         </div>
@@ -228,28 +233,28 @@
             <form action="">
                 <div class="card-body">
 
-                    <!-- Row 1 -->
+                    <!-- First Row -->
                     <div class="row g-3 mb-3">
 
                         <div class="col-md-4">
-                            <label class="form-label">Country</label>
-                            <select id="countrySelect"
-                                class="form-control select2 form-control-lg w-100">
-                                <option value="">--Select Country--</option>
-                                <option value="India" selected>India</option>
-                                <option value="Singapore">Singapore</option>
+                            <label class="form-label">Select Theme</label>
+                            <select id="themeSelect"
+                                class="form-control select2 form-control-lg w-160">
+                                <option value="">--Select theme--</option>
+                                <option value="army" selected>Army Stamp</option>
+                                <option value="police">Police Stamp</option>
                                 <option value="Uk">UK</option>
                             </select>
                         </div>
 
                         <div class="col-md-4">
-                            <label class="form-label">Year</label>
+                            <label class="form-label">Stamp Year</label>
                             <select id="yearSelect"
-                                class="form-control select2 form-control-lg w-100">
+                                class="form-control select2 form-control-lg">
                                 <option value="">--Select Year--</option>
                                 <option value="2025">2025</option>
-                                <option value="2023">2023</option>
-                                <option value="2021" selected>2021</option>
+                                <option value="2023" selected>2023</option>
+                                <option value="2021">2021</option>
                                 <option value="2019">2019</option>
                                 <option value="2017">2017</option>
                                 <option value="2015">2015</option>
@@ -277,24 +282,23 @@
                         </div>
 
                         <div class="col-md-4">
-                            <label class="form-label">Title</label>
+                            <label class="form-label">Stamp Theme</label>
                             <input class="form-control form-control-lg"
-                                type="text"
-                                id="titleInput"
-                                placeholder="Enter Title" value="India Army Stamp">
+                                type="search"
+                                placeholder="Enter Stamp Theme" value="Indian Theme Stamp">
                         </div>
 
                     </div>
 
-                    <!-- Row 2 -->
+                    <!-- Second Row -->
                     <div class="row g-3 mb-3">
 
                         <div class="col-md-4">
-                            <label class="form-label">Selected Country</label>
+                            <label class="form-label">Selected Theme</label>
                             <input class="form-control country-filed form-control-lg"
                                 type="text"
-                                id="selectedCountryInput"
-                                placeholder="Selected Country"
+                                id="titleInput"
+                                placeholder="Enter Title"
                                 disabled>
                         </div>
 
@@ -308,66 +312,67 @@
                         </div>
 
                         <div class="col-md-4">
-                            <label class="form-label">Theme</label>
+                            <label class="form-label">Country Name</label>
                             <input class="form-control form-control-lg"
-                                type="search"
-                                placeholder="Enter Stamp Theme" value="Indian Army Theme">
+                                type="text"
+                                placeholder="Country Name">
                         </div>
 
                     </div>
 
-                    <!-- Row 3 -->
+                    <!-- Third Row -->
                     <div class="row g-3 mb-3">
+
                         <div class="col-md-4">
                             <label class="form-label">Face Value</label>
                             <input class="form-control form-control-lg"
                                 type="text"
-                                placeholder="Face Value" value="200">
+                                placeholder="Face Value">
                         </div>
 
                         <div class="col-md-4">
                             <label class="form-label">Catalog Value</label>
                             <input class="form-control form-control-lg"
                                 type="text"
-                                placeholder="Catalog Value" value="200">
+                                placeholder="Catalog Value">
                         </div>
 
                         <div class="col-md-4">
                             <label class="form-label">Catalog Number</label>
                             <input class="form-control form-control-lg"
                                 type="text"
-                                placeholder="Catalog Number" value="2025UED2343">
+                                placeholder="Catalog Number">
                         </div>
 
                     </div>
 
-                    <!-- Row 4 -->
+                    <!-- Fourth Row -->
                     <div class="row g-3 mb-3">
 
                         <div class="col-md-4">
                             <label class="form-label">Date of Issue (01/01/2000)</label>
                             <input class="form-control form-control-lg"
                                 type="text"
-                                placeholder="Date of Issue (01/01/2002)" value="01/01/2002">
+                                placeholder="Date of Issue (DD/MM/YYYY)">
                         </div>
 
                         <div class="col-md-4">
-                            <label class="form-label">Format</label>
+                            <label class="form-label">Stamp Format</label>
                             <input class="form-control form-control-lg"
                                 type="text"
-                                placeholder="Format" value="Something">
+                                placeholder="Format">
                         </div>
 
                         <div class="col-md-4">
                             <label class="form-label">Quantity Printed</label>
                             <input class="form-control form-control-lg"
                                 type="text"
-                                placeholder="Quantity Printed" value="500">
+                                placeholder="Quantity Printed">
                         </div>
 
                     </div>
 
-                    <!-- Image Uploads -->
+                    <!-- Images Row -->
                     <div class="row g-3 mb-3">
 
                         <div class="col-md-4">
@@ -389,18 +394,18 @@
 
                     <!-- Description -->
                     <div class="mb-3">
-                        <textarea id="email-editor" name="area">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, rem!</textarea>
-                    </div>
-
-                    <!-- Button -->
-                    <div class="text-center">
-                        <button type="button"
-                            class="btn btn-primary btn-lg waves-effect waves-light">
-                            Add Stamp
-                        </button>
+                        <textarea id="email-editor" name="area"></textarea>
                     </div>
 
                 </div>
+
+                <div class="text-center pb-3">
+                    <button type="button"
+                        class="btn btn-primary btn-lg waves-effect waves-light">
+                        Add Stamp
+                    </button>
+                </div>
+
             </form>
         </div>
     </div>
@@ -464,11 +469,22 @@
     <script src="assets/js/custom-input.js"></script>
     <script src="assets/js/custom-select.js"></script>
 
+    <script>
+        $(document).ready(function () {
+
+    $('#themeSelect').on('change', function () {
+        const themeText = $('#themeSelect option:selected').text();
+
+        if (themeText && themeText !== '--Select theme--') {
+            $('#titleInput').val(themeText);
+        } else {
+            $('#titleInput').val('');
+        }
+    });
+
+});
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
-
-
-
 </body>
 
 </html>
